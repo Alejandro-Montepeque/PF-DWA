@@ -19,16 +19,17 @@ El sitio incorpora **Bootstrap** para el diseño responsivo, **Axios** para la c
 
 ### 1. Clonar el repositorio
 
-```bash
+```
 git clone https://github.com/usuario/compra-facil.git
 cd compra-facil
+```
 
 ### 2. Instalar dependencias 
 **Asegurate tener Node.js** instalado
 
-```bash
-npm install
-
+```
+npm instal
+```
 
 ### Esto inslara las siguientes dependencias
 - **Bootstrap**
@@ -36,5 +37,7 @@ npm install
 - **fontawesome**
 
 ## Ejecución del servidor con
-```bash
+
+```
 npm run dev
+```
