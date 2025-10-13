@@ -20,8 +20,7 @@ El sitio incorpora **Bootstrap** para el diseño responsivo, **Axios** para la c
 ### 1. Clonar el repositorio
 
 ```
-git clone https://github.com/usuario/compra-facil.git
-cd compra-facil
+git clone https://github.com/Alejandro-Montepeque/PF-DWA.git
 ```
 
 ### 2. Instalar dependencias 
