@@ -1,0 +1,32 @@
+{
+  "name": "pf-dwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandro-Montepeque/PF-DWA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alejandro-Montepeque/PF-DWA/issues"
+  },
+  "homepage": "https://github.com/Alejandro-Montepeque/PF-DWA#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "vite": "^7.1.9"
+  }
+}
