@@ -1,32 +1,18 @@
 {
   "name": "pf-dwa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-  }
-  ,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alejandro-Montepeque/PF-DWA.git"
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Alejandro-Montepeque/PF-DWA/issues"
-  },
-  "homepage": "https://github.com/Alejandro-Montepeque/PF-DWA#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.1.0",
-    "axios": "^1.12.2",
-    "bootstrap": "^5.3.8"
+    "vue": "^3.5.22"
   },
   "devDependencies": {
-    "vite": "^7.1.9"
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7"
   }
 }
