@@ -7,7 +7,7 @@ El sitio incorpora **Bootstrap** para el diseño responsivo, **Axios** para la c
 
 ## Tecnologías utilizadas
 
--  **HTML5** — Estructura del sitio  
+-  **VUE JS** — Estructura del sitio  
 -  **Bootstrap 5** — Estilos y componentes responsivos  
 -  **Axios** — Manejo de peticiones HTTP  
 -  **Font Awesome** — Íconos vectoriales  
