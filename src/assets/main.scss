@@ -1,0 +1,19 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+$primary: #0D3B66;
+$secondary: #FF8C42;
+$success: #3FC1C9;
+$danger: #E63946;
+$light: #F5F5F5;
+$dark: #212529;
+$body-color: #333333;
+$body-bg: #FFFFFF;
+
+@import 'bootstrap/scss/bootstrap';
+
+/* FONT AWESOME */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* SWEET ALERT CSS */
+@import 'sweetalert2/dist/sweetalert2.min.css';
