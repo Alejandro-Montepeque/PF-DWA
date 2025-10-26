@@ -24,13 +24,10 @@
           <a class="nav-link" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Catalogue">Catalogo</a>
+          <a class="nav-link" href="/Catalogue">Catálogo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/Shop">Carrito</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/UserInfo">Usuario</a>
         </li>
       </ul>
     </div>
@@ -61,17 +58,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/Catalogue">
-              <i class="fa-solid fa-folder-open me-2"></i> Catalogo
+              <i class="fa-solid fa-folder-open me-2"></i> Catálogo
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/Shop">
               <i class="fa-solid fa-cart-shopping me-2"></i> Carrito
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/UserInfo">
-              <i class="fa-solid fa-user me-2"></i> Usuario
             </a>
           </li>
         </ul>

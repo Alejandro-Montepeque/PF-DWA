@@ -2,10 +2,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import authRoutes from './auth.routes'
 import HomeView from '@/views/HomeView.vue'
-import CatalogoView from '../views/CatalogoView.vue'
-import CarritoView from '../views/CarritoView.vue'
-import UserView from '../views/UserView.vue'
-
+import CatalogoView from '@/views/CatalogoView.vue'
+import CarritoView from '@/views/CarritoView.vue'
+import PagoView from '@/views/PagoView.vue'
 
 // Configurar rutas principales
 const routes = [
@@ -26,9 +25,9 @@ const routes = [
     component: CarritoView
   },
   {
-    path: '/UserInfo',
-    name: 'User',
-    component: UserView
+    path: '/Checkout',
+    name: 'Checkout',
+    component: PagoView
   },
 ]
 
