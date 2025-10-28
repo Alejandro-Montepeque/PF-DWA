@@ -49,7 +49,21 @@
   </div>
 </template>
 
-<script src="@/js/pagoView.js">
+<script setup>
+import { useCart } from '../js/carritoView.js'
+import { usePayment } from '../js/pagoView.js'
+
+const { carrito } = useCart();
+
+const {
+    direccion,
+    ciudad,
+    tarjeta,
+    expiracion,
+    cvc,
+    total,
+    confirmarPago
+    } = usePayment(carrito);
 </script>
 
 <style scoped>

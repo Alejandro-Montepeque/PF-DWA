@@ -129,7 +129,7 @@
             <p class="text-muted">{{ selectedProduct?.description }}</p>
           </div>
           <div class="modal-footer">
-            <button class="btn btn-success">Comprar ahora</button>
+            <!-- <button class="btn btn-success">Comprar ahora</button> -->
             <button class="btn btn-outline-secondary" @click="addToCart(selectedProduct)">Agregar al carrito</button>
           </div>
         </div>
