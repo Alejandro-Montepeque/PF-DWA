@@ -15,7 +15,7 @@
       <div class="col-md-3">
         <select v-model="selectedCategory" class="form-select">
           <option value="">Todas las categorías</option>
-          <option v-for="cat in categories" :key="cat">{{ cat }}</option>
+          <option v-for="cat in categories" :key="cat.id" :value="cat.id">{{ cat.name }}</option>
         </select>
       </div>
       <div class="col-md-3">
@@ -37,7 +37,7 @@
       <DataCards 
         :title="product.name"
         :price="product.price"
-        :image="product.images[0]"
+        :image="product.imageUrl"
         showDefaultButton
         buttonText="Ver detalles"
         @action="showProduct(product)"
@@ -102,7 +102,7 @@
                   :key="index"
                   :class="{ active: index === 0 }"
                 >
-                  <img :src="img" class="d-block w-100 rounded" alt="producto" />
+                  <img :src="img" class="d-block mx-auto rounded" alt="producto" style=" max-height: 300px; width: auto;" />
                 </div>
               </div>
               <button
@@ -130,7 +130,7 @@
           </div>
           <div class="modal-footer">
             <button class="btn btn-success">Comprar ahora</button>
-            <button class="btn btn-outline-secondary">Agregar al carrito</button>
+            <button class="btn btn-outline-secondary" @click="addToCart(selectedProduct)">Agregar al carrito</button>
           </div>
         </div>
       </div>
@@ -141,33 +141,6 @@
 <script setup>
 import DataCards from '../components/DataCards.vue'
 import { useCatalogue } from '../js/catalogoView.js'
-
-const initialProducts = [
-  {
-    id: 1,
-    name: 'Laptop Lenovo',
-    category: 'Tecnología',
-    price: 899.99,
-    stock: 12,
-    description: 'Laptop con procesador Intel Core i7, 16GB RAM y SSD 512GB.',
-    images: [
-      'https://picsum.photos/500/300?random=10',
-      'https://picsum.photos/500/300?random=11',
-    ],
-  },
-  {
-    id: 2,
-    name: 'Camisa Casual',
-    category: 'Moda',
-    price: 29.99,
-    stock: 35,
-    description: 'Camisa cómoda y moderna para toda ocasión.',
-    images: [
-      'https://picsum.photos/500/300?random=12',
-      'https://picsum.photos/500/300?random=13',
-    ],
-  },
-]
 
 const {
   searchQuery,
@@ -182,5 +155,6 @@ const {
   selectedProduct,
   showProduct,
   productModal,
-} = useCatalogue(initialProducts)
+  addToCart
+} = useCatalogue()
 </script>

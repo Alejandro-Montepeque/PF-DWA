@@ -11,6 +11,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@fortawesome/vue-fontawesome": "^3.1.2",
+    "axios": "^1.12.2",
     "bootstrap": "^5.3.8",
     "sweetalert2": "^11.26.3",
     "vue": "^3.5.22",

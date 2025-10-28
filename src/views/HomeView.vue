@@ -33,7 +33,7 @@
 
     <!-- Categorías -->
     <div class="row justify-content-center">
-      <div class="col-md-4 mb-4" v-for="(category, index) in categories" :key="index">
+      <div class="col-md-4 mb-4" v-for="(category, index) in categories" :key="category.id">
         <div class="card category-card h-100 shadow-sm border-0">
           <img :src="category.image" class="card-img-top" :alt="category.title">
           <div class="card-body">
@@ -53,7 +53,6 @@
           <div class="card-body">
             <h5 class="card-title">{{ productosRecomendados.title }}</h5>
             <p class="card-text text-muted">${{ productosRecomendados.precio }}</p>
-            <button class="btn btn-secondary"><i class="fa-solid fa-cart-shopping"> </i> Agregar al carrito</button>
           </div>
         </div>
       </div>
